@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	unsigned long int f = 1, s = 2, n;
+	long int f = 1, s = 2, n;
 	int count = 2;
 
 	printf("1, 2, ");
