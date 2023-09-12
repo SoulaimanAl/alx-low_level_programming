@@ -16,7 +16,10 @@ int main(void)
 	while (count < 50)
 {
 		n = f + s;
-		printf("%ld, ", n);
+		if (count == 49)
+			printf("%ld", n);
+		else
+			printf("%ld, ", n);
 		f = s;
 		s = n;
 		count++;
