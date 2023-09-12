@@ -12,7 +12,7 @@ int main(void)
 	long int f = 1, s = 2, n;
 	unsigned int count = 2;
 
-	printf("1, 2,");
+	printf("1, 2, ");
 	while (count < 50)
 {
 		n = f + s;
