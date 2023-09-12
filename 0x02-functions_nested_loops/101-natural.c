@@ -7,7 +7,7 @@
  * return: always 0
 */
 
-void print(void)
+int main(void)
 {
 	int a, m = 0;
 
@@ -17,4 +17,5 @@ void print(void)
 			m = m + a;
 	}
 	printf("%d\n", m);
+	return (0);
 }
