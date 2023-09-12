@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print - program that computes and prints the sum
- * of all the multiples of 3 or 5 below 1024
+ * main - Retry point
  *
- * return: always 0
+ * Return: always 0
 */
 
 int main(void)
