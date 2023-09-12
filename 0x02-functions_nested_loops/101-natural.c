@@ -17,5 +17,4 @@ void print(void)
 			m = m + a;
 	}
 	printf("%d\n", m);
-	return (0);
 }
