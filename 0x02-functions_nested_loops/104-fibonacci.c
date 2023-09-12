@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	long int f = 1, s = 2, n;
+	unsigned long int f = 1, s = 2, n;
 	int count = 2;
 
 	printf("1, 2, ");
@@ -17,9 +17,9 @@ int main(void)
 	{
 		n = f + s;
 		if (count == 97)
-			printf("%ld", n);
+			printf("%lu", n);
 		else
-			printf("%ld, ", n);
+			printf("%lu, ", n);
 		f = s;
 		s = n;
 		count++;
