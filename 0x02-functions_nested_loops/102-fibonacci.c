@@ -9,14 +9,14 @@
 
 int main(void)
 {
-	long long int f = 1, s = 2, n;
+	long int f = 1, s = 2, n;
 	unsigned int count = 2;
 
 	printf("1, 2,");
 	while (count < 50)
 {
 		n = f + s;
-		printf("%lld, ", n);
+		printf("%ld, ", n);
 		f = s;
 		s = n;
 		count++;
