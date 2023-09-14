@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * main - Retry point
