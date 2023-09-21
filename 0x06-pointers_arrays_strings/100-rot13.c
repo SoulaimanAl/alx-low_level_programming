@@ -5,7 +5,7 @@
  *
  * @str: pointeur type char
  *
- * Return: result of pointeur str
+ * Return: *str
  */
 
 char *rot13(char *str)
