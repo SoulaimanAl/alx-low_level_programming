@@ -5,12 +5,12 @@
  *
  * @n: input numbers
  *
- * Return: n
+ * Return: the number n
  */
 
 void print_number(int n)
 {
-	int num;
+	unsigned int num;
 
 	if (n < 0)
 	{
