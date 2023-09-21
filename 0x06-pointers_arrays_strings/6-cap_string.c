@@ -5,7 +5,7 @@
  *
  * @s: pointeur type char
  *
- * Return: return s
+ * Return: pointer to result  s
  */
 
 char *cap_string(char *s)
@@ -14,7 +14,7 @@ char *cap_string(char *s)
 
 	while (s[i])
 	{
-		while (s[i] <= 'a' && s[i] >= 'z')
+		while (!(s[i] >= 'a' && s[i] <= 'z'))
 			i++;
 		if (s[i - 1] == ' ' ||
 				s[i - 1] == '\t' ||
