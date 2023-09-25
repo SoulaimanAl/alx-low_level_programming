@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strpbrk - Retry point
+ * *_strpbrk - Entry point
  *
  * @s: pointeur type char
  * @accept: input
