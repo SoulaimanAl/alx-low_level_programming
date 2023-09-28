@@ -30,7 +30,7 @@ int square(int n, int x)
 {
 	if (x * x == n)
 		return (x);
-	else if (x * x > n)
+	if (x * x > n)
 		return (-1);
 
 		return (square(x + 1, n));
