@@ -4,10 +4,12 @@
  * _sqrt_recursion - Entry point
  *
  * @n: input
+ * @x: iterator
  *
  * Return: always 0
  */
 
+int square(int n, int x);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
