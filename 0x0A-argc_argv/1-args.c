@@ -11,12 +11,8 @@
 
 int main(int argc, char **argv)
 {
-	(void)argc;
+	(void)argv;
 
-	while (*argv != '\0')
-	{
-		printf("%d\n", atoi(*argv));
-		argv++;
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }
