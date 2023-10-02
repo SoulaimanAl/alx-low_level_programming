@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 			arg++;
 		}
 		if (isValid)
-			mul *= atoi(argv[n]);
+			mul += atoi(argv[n]);
 		else
 		{
 			printf("Error\n");
