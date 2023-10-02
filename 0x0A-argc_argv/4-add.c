@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int mul = 1, n;
+	int mul = 0, n;
 
 	if (argc == 1)
 		return (0);
