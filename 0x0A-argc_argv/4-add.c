@@ -15,9 +15,6 @@ int main(int argc, char **argv)
 	int mul = 0;
 	char *c;
 
-	if (argc == 1)
-		return (0);
-
 	while (--argc)
 	{
 		for (c = argv[argc]; *c; c++)
