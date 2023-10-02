@@ -7,7 +7,7 @@
  * @argc: input
  * @argv: input
  *
- * Return: always 0
+ * Return: always 0, 1 if fail
  */
 
 int main(int argc, char **argv)
