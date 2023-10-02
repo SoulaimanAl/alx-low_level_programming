@@ -11,13 +11,16 @@
 
 int main(int argc, char **argv)
 {
-	if (argc < 2)
+	int num1 = atoi(argv[0]);
+	int num2 = atoi(argv[1]);
+
+	if (argc >= 3)
 	{
-		printf("%d\n", atoi(argv[0] + argv[1]));
+		printf("%d\n", num1 + num2);
 	}
 	else
 	{
-		printf("ERROR");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
