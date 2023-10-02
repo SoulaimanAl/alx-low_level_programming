@@ -12,34 +12,24 @@
 
 int main(int argc, char **argv)
 {
-	int mul = 0, n;
+	int mul = 0;
+	char *c;
 
 	if (argc == 1)
 		return (0);
 
-	for (n = 1; n < argc; n++)
+	while (--argc)
 	{
-		char *arg = argv[n];
-		int isValid  = 1;
-
-		while (*arg != '\0')
+		for (c = argv[argc]; *c; c++)
 		{
-			if (*arg < '0' || *arg > '9')
+			if (*c < '0' || *c > '9')
 			{
-				isValid = 0;
-				break;
+				printf("Error\n");
+				return (1);
 			}
-			arg++;
 		}
-		if (isValid)
-			mul += atoi(argv[n]);
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		mul += atoi(argv[argc]);
 	}
-
 	printf("%d\n", mul);
 	return (0);
 }
