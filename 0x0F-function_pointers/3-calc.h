@@ -1,6 +1,9 @@
 #ifndef CALOC_H
 #define CALOC_H
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct op - Struct op
  *
