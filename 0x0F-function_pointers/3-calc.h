@@ -1,6 +1,7 @@
 #ifndef CALOC_H
 #define CALOC_H
 
+#include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
 
